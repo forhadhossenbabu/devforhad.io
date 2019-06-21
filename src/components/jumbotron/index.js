@@ -23,7 +23,7 @@ const Jumbotron = props => {
             <div className="p-4 item-hl">
               <a
                 id="btn-my-2nd"
-                href="https://drive.google.com/file/d/1KyhXK-dFvwwMzWPn6_ENOjGJT3jIhnQF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1b-8g9aH0kfi7C-QIo7cI7Oe_q2NW-75D/view?usp=sharing"
                 target="blank"
               >
                 Download Resume

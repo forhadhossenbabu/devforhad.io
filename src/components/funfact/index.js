@@ -10,8 +10,8 @@ const FunFact = () => {
             <img src="http://i.imgur.com/7jmZxc8.png" alt="counter_threeup" />
           </div>
           <div className="counter_threeup-content">
-            <h5 className="count-number">11</h5>
-            <h6>Designers</h6>
+            <h5 className="count-number">63 Website</h5>
+            <h6>Designed</h6>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@ const FunFact = () => {
             <img src="http://i.imgur.com/s3fDOCZ.png" alt="counter_threeup" />
           </div>
           <div className="counter_threeup-content">
-            <h5 className="count-number">6542</h5>
+            <h5 className="count-number">1542</h5>
             <h6>Hours Worked</h6>
           </div>
         </div>
@@ -34,7 +34,7 @@ const FunFact = () => {
             <img src="http://i.imgur.com/UYLWCDw.png" alt="counter_threeup" />
           </div>
           <div className="counter_threeup-content">
-            <h5 className="count-number">254</h5>
+            <h5 className="count-number">104</h5>
             <h6>Project finished</h6>
           </div>
         </div>
@@ -46,7 +46,7 @@ const FunFact = () => {
             <img src="http://i.imgur.com/IVfjEcU.png" alt="counter_threeup" />
           </div>
           <div className="counter_threeup-content">
-            <h5 className="count-number">435</h5>
+            <h5 className="count-number">59</h5>
             <h6>Drunk coffee</h6>
           </div>
         </div>

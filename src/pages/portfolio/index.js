@@ -53,9 +53,12 @@ class Portfolio extends React.Component {
           </h4>
           <hr />
           <FunFact />
+          <Link to="addportfolio" style={{ display: "none" }}>
+            Add Item
+          </Link>
           <div>
             <h4 className="text-center" style={{ fontWeight: 300 }}>
-              MY SORT & BIG PROJECTS
+              MY PROJECTS
             </h4>
             <hr />
             {this.state.loading ? (

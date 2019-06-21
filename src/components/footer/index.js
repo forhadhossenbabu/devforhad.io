@@ -10,9 +10,7 @@ const Footer = () => {
             <h2 className=" display-8" style={{ fontWeight: "100" }}>
               dev<strong style={{ fontWeight: "500" }}>Forhad</strong>.io
             </h2>
-            <p>
-              Here you can use rows and columns to organize your footer content.
-            </p>
+            <p>Software Engineer | Enthusiastic Javascript Developer</p>
           </div>
 
           <hr className="clearfix w-100 d-md-none pb-3" />
@@ -22,10 +20,9 @@ const Footer = () => {
 
             <ul className="list-unstyled">
               <li>
-                <a href="#!">CodePen.io</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
+                <a href="https://codepen.io/findforhad" target="blank">
+                  CodePen.io
+                </a>
               </li>
             </ul>
           </div>

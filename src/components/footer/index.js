@@ -24,6 +24,14 @@ const Footer = () => {
                   CodePen.io
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/findforhad/devforhad.io"
+                  target="blank"
+                >
+                  This Application Code
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -54,7 +62,8 @@ const Footer = () => {
 
       <div className="footer-copyright text-center py-3">
         <code style={{ fontWeight: 100 }}>
-          built with React v16.18.6 | © under devforhad.io 2016-2019
+          open source project | built with React v16.18.6 | © under devforhad.io
+          2016-2019
         </code>
       </div>
     </footer>

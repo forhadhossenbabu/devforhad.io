@@ -47,7 +47,6 @@ class ContactFrom extends React.Component {
     //   error.token = "Prove You Are Human";
     // }
 
-    console.log(Object.keys(error).length);
     if (Object.keys(error).length !== 0) return this.setState({ error });
 
     const dataToSubmit = {
@@ -57,6 +56,7 @@ class ContactFrom extends React.Component {
       message
     };
     //Call the mail server here
+
     axios.post(`${apiurl}/api/v1/contactform`, dataToSubmit).then(res => {
       if (res.data.status === true) {
         this.setState({ formSubmitted: true });

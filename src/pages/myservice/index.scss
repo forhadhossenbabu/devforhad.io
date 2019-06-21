@@ -1,0 +1,18 @@
+.bg-dark {
+  background-image: linear-gradient(
+    to left,
+    rgb(11, 65, 152) 0%,
+    rgb(3, 39, 39) 100%
+  );
+}
+.card-pricing.popular {
+  z-index: 1;
+  border: 2px solid rgb(11, 64, 148);
+}
+.card-pricing .list-unstyled li {
+  padding: 0.5rem 0;
+  color: #6c757d;
+}
+.bg-primary {
+  background-color: rgb(11, 64, 148) !important;
+}

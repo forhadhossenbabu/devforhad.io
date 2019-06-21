@@ -1,17 +1,12 @@
 import React from "react";
-import ReCaptcha from "react-google-recaptcha";
+// import ReCaptcha from "react-google-recaptcha";
 import { Link } from "react-router-dom";
 import "./index.scss";
 import axios from "axios";
 const apiurl = "https://devforhadio.herokuapp.com";
 
-// let sitekey = "6Ld1MKkUAAAAAMoSMiKqkaRwOUKR2N95gPVf0cMy";
-// let sitekeylocalhost = "6LfxMKkUAAAAAD_1letzQYcKnYfibDWzdw-H1D8q";
-// let secretkey = "6Ld1MKkUAAAAAEiAoh9EJmOx7LbLRAlVVe0O-NO4";
-
 class ContactFrom extends React.Component {
   state = {
-    token: false,
     name: "",
     email: "",
     skype: "",
@@ -23,10 +18,10 @@ class ContactFrom extends React.Component {
     subscribed: false
   };
 
-  handleCapthcha = value => {
-    if (value) this.setState({ token: true });
-    else this.setState({ token: false });
-  };
+  // handleCapthcha = value => {
+  //   if (value) this.setState({ token: true });
+  //   else this.setState({ token: false });
+  // };
 
   hanldeChange = e => {
     this.setState({ [e.target.name]: e.target.value, error: {} });
@@ -36,7 +31,7 @@ class ContactFrom extends React.Component {
     e.preventDefault();
 
     const error = {};
-    const { name, email, message, skype, token } = this.state;
+    const { name, email, message, skype } = this.state;
 
     if (!name || name.length < 3) {
       error.name = "Name is Required. It has to be > 3 char";
@@ -48,9 +43,9 @@ class ContactFrom extends React.Component {
       error.message = "Message is Required. It has to be > 15 char";
     }
 
-    if (token === false) {
-      error.token = "Prove You Are Human";
-    }
+    // if (token === false) {
+    //   error.token = "Prove You Are Human";
+    // }
 
     console.log(Object.keys(error).length);
     if (Object.keys(error).length !== 0) return this.setState({ error });
@@ -80,8 +75,6 @@ class ContactFrom extends React.Component {
         subsemailerr: "Email is Required. It has to be a valid email"
       });
 
-    console.log(this.state.subsEmail);
-
     axios
       .post(`${apiurl}/api/v1/subscribe`, {
         email: this.state.subsEmail
@@ -101,7 +94,7 @@ class ContactFrom extends React.Component {
   };
 
   render() {
-    const { error, token } = this.state;
+    const { error } = this.state;
     return (
       <div className="container mt-5 mb-6">
         <h4 className="text-center mb-3" style={{ fontWeight: 300 }}>
@@ -191,7 +184,7 @@ class ContactFrom extends React.Component {
                   </small>
                 )}
               </div>
-              <div className="form-group">
+              {/* <div className="form-group">
                 <ReCaptcha
                   sitekey="6Ld1MKkUAAAAAMoSMiKqkaRwOUKR2N95gPVf0cMy"
                   onChange={this.handleCapthcha}
@@ -199,7 +192,7 @@ class ContactFrom extends React.Component {
                 <small className="form-text text-danger">
                   {token === false ? error.token : null}
                 </small>
-              </div>
+              </div> */}
               <button type="submit" id="btn-my-2nd">
                 Submit Form
               </button>

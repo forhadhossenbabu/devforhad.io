@@ -1,0 +1,31 @@
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 370px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 30%;
+  left: 3rem;
+  width: 100px;
+  height: 100px;
+}
+.card {
+  border-radius: 0px !important;
+}
+.card-footer {
+  padding: 0;
+  border: 0px;
+}

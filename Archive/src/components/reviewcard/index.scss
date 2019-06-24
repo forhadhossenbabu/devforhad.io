@@ -1,0 +1,79 @@
+.testimoni {
+  position: relative;
+  float: left;
+  font-weight: 100;
+  overflow: hidden;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  background-color: rgb(60, 133, 197);
+  padding-top: 125px;
+  border-radius: 2px;
+}
+.testimoni * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.testimoni img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.testimoni .pic {
+  width: 100%;
+  background-color: rgb(9, 35, 98);
+  padding: 10px 10px;
+  position: relative;
+}
+.testimoni .pic:before {
+  position: absolute;
+  content: "";
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent rgb(9, 35, 98);
+}
+.testimoni .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 108%;
+  left: 20px;
+  z-index: 1;
+  width: 100px;
+  opacity: 1;
+  height: 100px;
+}
+.testimoni h4 {
+  margin: 25px;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+.testimoni small {
+  display: block;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  text-align: right;
+}
+.testimoni p {
+  font-weight: 100;
+  height: 105px !important;
+}
+.testimoni p:after {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 130px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  content: "\201D";
+  right: 0px;
+  bottom: -105px;
+}

@@ -1,0 +1,84 @@
+.gradient_color_one,
+.gradient_bg_one {
+  background: -webkit-linear-gradient(90deg, #8579e0, #d043ca);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(#8579e0),
+    color-stop(#d043ca)
+  );
+  background: -webkit-linear-gradient(left, #8579e0, #d043ca);
+  background: -o-linear-gradient(left, #8579e0, #d043ca);
+  background: linear-gradient(90deg, #8579e0, #d043ca);
+}
+
+.gradient_color_two,
+.gradient_bg_two {
+  background: -webkit-linear-gradient(90deg, #f75799, #fd6687);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(#f75799),
+    color-stop(#fd6687)
+  );
+  background: -webkit-linear-gradient(left, #f75799, #fd6687);
+  background: -o-linear-gradient(left, #f75799, #fd6687);
+  background: linear-gradient(90deg, #f75799, #fd6687);
+}
+
+.gradient_color_three,
+.gradient_bg_three {
+  background: -webkit-linear-gradient(90deg, #23ced5, #5192e1);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(#23ced5),
+    color-stop(#5192e1)
+  );
+  background: -webkit-linear-gradient(left, #23ced5, #5192e1);
+  background: -o-linear-gradient(left, #23ced5, #5192e1);
+  background: linear-gradient(90deg, #23ced5, #5192e1);
+}
+
+.gradient_color_four,
+.gradient_bg_four {
+  background: -webkit-linear-gradient(90deg, #3fd39f, #3fb8af);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(#3fd39f),
+    color-stop(#3fb8af)
+  );
+  background: -webkit-linear-gradient(left, #3fd39f, #3fb8af);
+  background: -o-linear-gradient(left, #3fd39f, #3fb8af);
+  background: linear-gradient(90deg, #3fd39f, #3fb8af);
+}
+
+.gradient_color_five,
+.gradient_bg_five {
+  background: -webkit-linear-gradient(90deg, #f5c28a, #f39484);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(#f5c28a),
+    color-stop(#f39484)
+  );
+  background: -webkit-linear-gradient(left, #f5c28a, #f39484);
+  background: -o-linear-gradient(left, #f5c28a, #f39484);
+  background: linear-gradient(90deg, #f5c28a, #f39484);
+}
+
+span.pro-step {
+  height: 90px;
+  width: 90px;
+  line-height: 91px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 50%;
+}

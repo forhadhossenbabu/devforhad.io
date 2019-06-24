@@ -1,0 +1,25 @@
+.service-single {
+  margin-top: 20px;
+  box-shadow: 0 0 10px #5f5b5b;
+}
+.service-single .box-top {
+  background-image: linear-gradient(
+    to left,
+    rgb(11, 65, 152) 0%,
+    rgb(3, 39, 39) 100%
+  );
+  padding: 60px 20px;
+  color: rgb(255, 255, 255);
+}
+.service-single .box-top i {
+  font-size: 50px;
+  padding: 20px 0;
+}
+.service-single .box-top h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.service-single.text-center:hover {
+  transform: translatey(5px);
+  transition: 0.3s linear;
+}

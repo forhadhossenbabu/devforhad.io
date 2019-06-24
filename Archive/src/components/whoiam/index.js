@@ -11,18 +11,14 @@ const WhoIam = () => {
       <div className="row">
         <div className="col-md-6 col-sm-8">
           <h6 style={{ fontWeight: 200, lineHeight: "30px" }}>
+            {" "}
             I am a highly talented, experienced, professional and cooperative
             software engineer, I am working in programming and web world for
-            more than 3 years. Now I am looking for a fully distributed team
-            where people are working all around the world. I assure you for a
-            wide range of quality IT services. Elegant Web Frontend, Backend,
-            and Mobile app development are the major filed I am expert in. I am
-            specialized in ReactJS, React Native, NodeJS, MongoDB, SQL,
-            Javascript, ECMAScript Standard. I am able to balance lots of
-            concerns in my field. I believe sharing is a way to sharpen our
-            memory. I love remote job because I love the flexibility. I always
-            enjoy new challenges. Please hire me if your company is looking for
-            a dedicated and hard worker Tech Guy.
+            more than 4 years .I assure you a wide range of quality IT services.
+            Web development, mobile app development and UI design the major
+            filed i am expert in. Moreover i have learning passion. I makes
+            small and big projects as open source. My over all skill makes me a
+            complete software developer, so you can hire me for your projects
           </h6>
         </div>
         <div className="col-md-6 col-sm-8 skill">
